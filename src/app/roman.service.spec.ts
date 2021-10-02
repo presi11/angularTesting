@@ -20,22 +20,6 @@ describe('RomanService', () => {
     expect(service.converToRoman(4)).toEqual("IV");
     expect(service.converToRoman(5)).toEqual("V");
     expect(service.converToRoman(6)).toEqual("VI");
-    expect(service.converToRoman(9)).toEqual("IX");
-    expect(service.converToRoman(10)).toEqual("X");
-    expect(service.converToRoman(11)).toEqual("XI");
-    expect(service.converToRoman(39)).toEqual("XXXIX");
-    expect(service.converToRoman(40)).toEqual("XL");
-    expect(service.converToRoman(41)).toEqual("XLI");
-    expect(service.converToRoman(49)).toEqual("XLIX");
-    expect(service.converToRoman(50)).toEqual("L");
-    expect(service.converToRoman(51)).toEqual("LI");
-    expect(service.converToRoman(89)).toEqual("LXXXIX");
-    expect(service.converToRoman(90)).toEqual("XC");
-    expect(service.converToRoman(91)).toEqual("XCI");
-    expect(service.converToRoman(99)).toEqual("XCIX");
-    expect(service.converToRoman(100)).toEqual("C");
-    expect(service.converToRoman(101)).toEqual("CI");
-
 
 
   });
